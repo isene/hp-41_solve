@@ -28,6 +28,9 @@ After you enter or solve for any value, the program will show the value of that 
 ## SOLVE for the CX
 I included a more advanced SOLVE for the HP-41CX where the last fuction is stored in a data file called `SOLVE`. When you are asked to input the function to solve, the last function will be suggested. Simply press `R/S` to solve for that function. Enter any other function, and that that function will be saved to the data file and suggested the next time you run SOLVE.
 
+## Barcode for SOLVE
+Courtesy of [Josef](https://www.hpmuseum.org/forum/user-13142.html) over at the [HP Forum](https://www.hpmuseum.org/forum/), I have included the file `solve.pdf` in this repo, providing barcodes for the program that can be scanned with an HP Wand.
+
 ## License
 This software is released into the Public Domain.
 
