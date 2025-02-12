@@ -1,5 +1,5 @@
 # Advanced SOLVE for the HP-41 calculator
-The HP-41 now has a SOLVE function similar to that of the HP-42S. This is an adaptation of the [SOLVE Function](https://www.hpmuseum.org/software/41solvr.htm) by Stefan Vorkoetter featuring a full Alpha menu and more.
+The HP-41 now has a SOLVE function similar to that of the HP-42S. This is an adaptation of the [SOLVE Function](https://www.hpmuseum.org/software/41solvr.htm) by Stefan Vorkoetter featuring a full Alpha menu and more. The programs included requires an HP-41CX (or HP-41CL or the DM-41X).
 
 ## SOLVE
 Upon `XEQ "SOLVE"`, you will be asked to enter the function that you want to solve for a variable. The function must be written into a separate program in the format "f(x) = 0". For instance, to solve the function of [Little's Law](https://github.com/isene/hp-41_LittlesLaw), the function "T=I*R" must be written as "I*R-T" in this way:
@@ -25,8 +25,8 @@ There are two underlying values stored in registers 11 and 12. These are the two
 
 After you enter or solve for any value, the program will show the value of that variable.
 
-## SOLVE for the CX
-I included a more advanced SOLVE for the HP-41CX where the last fuction is stored in a data file called `SOLVE`. When you are asked to input the function to solve, the last function will be suggested. Simply press `R/S` to solve for that function. Enter any other function, and that that function will be saved to the data file and suggested the next time you run SOLVE.
+## SOLVE with XM
+I included a more advanced SOLVE for the HP-41CX where the last fuction is stored in an Extended Memory data file called `SOLVE`. When you are asked to input the function to solve, the last function will be suggested. Simply press `R/S` to solve for that function. Enter any other function, and that that function will be saved to the data file and suggested the next time you run SOLVE.
 
 ## Barcode for SOLVE
 Courtesy of [Josef](https://www.hpmuseum.org/forum/user-13142.html) over at the [HP Forum](https://www.hpmuseum.org/forum/), I have included the file `solve.pdf` in this repo, providing barcodes for the program that can be scanned with an HP Wand.
