@@ -6,6 +6,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/hp41_solve_logo.svg" align="left" width="150" height="150" alt="HP-41 SOLVE Logo">
+<br clear="left"/>
 
 The HP-41 now has a SOLVE function similar to that of the HP-42S. This is an adaptation of the [SOLVE Function](https://www.hpmuseum.org/software/41solvr.htm) by Stefan Vorkoetter featuring a full Alpha menu and more. The programs included requires an HP-41CX (or HP-41CL or the DM-41X).
 
